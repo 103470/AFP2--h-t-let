@@ -39,6 +39,10 @@ A kérdőívek általános feladata az, hogy felmérjék az emberek véleményé
 - Kötelező adatok megadásának ellenörzése.
 - A teszt kérdések megválaszolása esetén a helyesség ellenőrzése.
 
+
+![aaa drawio](https://user-images.githubusercontent.com/113610538/226834017-17ef7e58-9397-4427-b8cb-858bd4492525.png)
+
+
 ## 8.Követelmény lista
 - Biztonság https protocol amellyel biztosítjuk a felhasználó védettségét a weben.
 - Egy választási lehetőséggel rendelkező kérdés és annak a választófelülete

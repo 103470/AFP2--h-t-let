@@ -30,7 +30,7 @@ Szeretnénk, hogy a felület is átlátható legyen(látni lehet, hogy mely funk
 - A felhasználók által megadott válaszokat csak az ahhoz szükséges jogosultsággal lehet megtekinteni
 
 ## 6.Jelenlegi üzleti folyamtok modellje
-A kérdőívek általános feladata az, hogy felmérjék az emberek véleményét egy vagy több dologgal kapcsolatban. Rengeteg kérdőív van az interneten. Miben különbözne egy új, milyen újítást tudna bevezetni? Szerintünk az rendben van, hogy egy kérdőívet bárki kitölthet. Ugyanakkor sok olyan szituació van amikor azok véleményére szeretnénk több kreditet adni akik jártasak abban a bizonyos témában. Ezért a kérdőívünkbe implementálni szeretnénk egy úgy nevezett "szűrést" amely eldönti, hogy leteszteljük az aktuális felhasználó hozzáértését.
+A kérdőívek általános feladata az, hogy felmérjék az emberek véleményét egy vagy több dologgal kapcsolatban. Rengeteg kérdőív van az interneten. Miben különbözne egy új, milyen újítást tudna bevezetni? Szerintünk az rendben van, hogy egy kérdőívet bárki kitölthet. Ugyanakkor sok olyan szituació van amikor azok véleményére szeretnénk több kreditet adni akik jártasak abban a bizonyos témában. Ezért a kérdőívünkbe implementálni szeretnénk egy úgy nevezett "szűrést" amely eldönti, hogy az aktuális felhasználó mennyire jártas az adott témában.
 
 ## 7.Igényelt üzleti folyamatok modellje
 - Online megjelenés.

@@ -13,3 +13,12 @@ A csapatunk szeretne egy webes kérdőívet készíteni adatgyűjtés céljábó
 
 A projekt célja az hogy létrehozzunk egy olyan rendszert, ami különböző adatok, predikciók, vélemények megkérdezésére szolgál. A rendszert szeretnénk úgy létrehozni, hogy ez minél több ember számára elérhető legyen. Erre legalkalmasabb felületnek egy weboldalt gondolunk, hiszen az bármilyen eszközről elérhető, feltéve ha van internet kapcsolatunk. A rendszernek olyannak kell lennie, hogy az a különböző felhasználók által szolgált adatokat el tudja tárolni. Ahhoz hogy felmérjük a felhasználó témához értését tegyünk fel kalibráló kérdéseket, hiszen nem mindegy hogy egy témában jártas személy válaszol a kérdésekre, vagy egy olyan ember akinek az adott téma nem az erőssége.
 
+## 4.Funkcionális Követelmények
+
+### A kerdőiv kezelésével kapcsolatban:
+A kérdőívben a kérdesek legyenek világosan és érthetően megfogalmazva.
+Ezen felül a kérdőív legyen könnyen kezelhető valamint egyszerűen megérthető/átlátható.
+### A vizuális felülettel kapcsolatban:
+A vizualis felület legyen kidolgozott, még sem túl komplikált.
+Szeretnénk, hogy a felület is átlátható legyen(látni lehet, hogy mely funkciók hol találhatók, és nem kell kutatni utánuk).
+

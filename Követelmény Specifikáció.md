@@ -32,6 +32,10 @@ Szeretnénk, hogy a felület is átlátható legyen(látni lehet, hogy mely funk
 ## 6.Jelenlegi üzleti folyamtok modellje
 A kérdőívek általános feladata az, hogy felmérjék az emberek véleményét egy vagy több dologgal kapcsolatban. Rengeteg kérdőív van az interneten. Miben különbözne egy új, milyen újítást tudna bevezetni? Szerintünk az rendben van, hogy egy kérdőívet bárki kitölthet. Ugyanakkor sok olyan szituació van amikor azok véleményére szeretnénk több kreditet adni akik jártasak abban a bizonyos témában. Ezért a kérdőívünkbe implementálni szeretnénk egy úgy nevezett "szűrést" amely eldönti, hogy az aktuális felhasználó mennyire jártas az adott témában.
 
+
+![abra drawio](https://user-images.githubusercontent.com/113610878/226836415-18917c13-51f4-44bc-82fd-603177e7b632.png)
+
+
 ## 7.Igényelt üzleti folyamatok modellje
 - Online megjelenés.
 - Válaszok elmentése adatbázisba.

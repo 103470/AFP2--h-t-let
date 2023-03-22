@@ -38,3 +38,15 @@ A kérdőívek általános feladata az, hogy felmérjék az emberek véleményé
 - Az egyéb válaszmegjelölés átnézése, és csak az értelmes válaszok elmentése adatbázisba.
 - Kötelező adatok megadásának ellenörzése.
 - A teszt kérdések megválaszolása esetén a helyesség ellenőrzése.
+
+## 8.Követelmény lista
+- Biztonság https protocol amellyel biztosítjuk a felhasználó védettségét a weben.
+- Egy választási lehetőséggel rendelkező kérdés és annak a választófelülete
+- Több választási lehetőséggel rendelkező kérdés és annak a választófelülete
+- Saját válasz beírása lehetőséggel rendelkező kérdés és annak a beírósáv felülete
+- Legördülő menü hozzáadása és annak a felülelte
+- Adatbázis kommunikáció a weboldal és egy webszerver adatbázisával
+- Díszítés megalkotása a felülethez
+- UI megalkotása a felülethez
+- Jogosultsági rendszer létrehozása
+- Admin jogosultsággal rendelkezők számára kérdések szerkesztésének biztosítása/kérdések törlése/kérdések hozzáadása

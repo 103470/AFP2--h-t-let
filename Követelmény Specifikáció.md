@@ -22,5 +22,12 @@ Ezen felül a kérdőív legyen könnyen kezelhető valamint egyszerűen megért
 A vizualis felület legyen kidolgozott, még sem túl komplikált.
 Szeretnénk, hogy a felület is átlátható legyen(látni lehet, hogy mely funkciók hol találhatók, és nem kell kutatni utánuk).
 
-## 6 Jelenlegi üzleti folyamtok modellje
+## 5.Rendszerre vonatkozó törvények, szabványok, ajánlások
+- A web felület szabványos eszközökkel készüljüön, html/css/javascript/php.
+- A képek jpeg vagy png formátumúak lehetnek.
+- A felhasznlókat azonosító web oldalak esetében szükséges jogszabályokat be kell tartani: GDPR
+- A rendszer bíztosítsa a kérdőívet kitöltő személy teljes anonimítást.
+- A felhasználók által megadott válaszokat csak az ahhoz szükséges jogosultsággal lehet megtekinteni
+
+## 6.Jelenlegi üzleti folyamtok modellje
 A kérdőívek általános feladata az, hogy felmérjék az emberek véleményét egy vagy több dologgal kapcsolatban. Rengeteg kérdőív van az interneten. Miben különbözne egy új, milyen újítást tudna bevezetni? Szerintünk az rendben van, hogy egy kérdőívet bárki kitölthet. Ugyanakkor sok olyan szituació van amikor azok véleményére szeretnénk több kreditet adni akik jártasak abban a bizonyos témában. Ezért a kérdőívünkbe implementálni szeretnénk egy úgy nevezett "szűrést" amely eldönti, hogy leteszteljük az aktuális felhasználó hozzáértését.

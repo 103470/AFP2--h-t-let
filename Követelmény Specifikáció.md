@@ -50,3 +50,10 @@ A kérdőívek általános feladata az, hogy felmérjék az emberek véleményé
 - UI megalkotása a felülethez
 - Jogosultsági rendszer létrehozása
 - Admin jogosultsággal rendelkezők számára kérdések szerkesztésének biztosítása/kérdések törlése/kérdések hozzáadása
+
+## 9.Fogalomszótár
+
+- HTML: A HTML (angolul: HyperText Markup Language) egy leíró nyelv, melyet weboldalak készítéséhez fejlesztettek ki, és mára már internetes szabvánnyá vált a W3C támogatásával. Az aktuális változata az 5, ezt a verziót használjuk mi is.<br>
+- CSS: A CSS (Cascading Style Sheets) egy stílusleíró nyelv, mely a HTML vagy XHTML típusú strukturált dokumentumok megjelenését írja le. Weblapunk stílusát ezzel készítjük el.<br>
+- PHP: A PHP egy általános szerveroldali szkriptnyelv dinamikus weblapok készítésére. Az első szkriptnyelvek egyike, amely külső fájl használata helyett HTML oldalba ágyazható. opcionális statikus gépelést ad a nyelvhez.<br>
+- Ui: Felhasználói felület (User interface). A user interface szoftverek, mobilalkalmazások felhasználó által látható “külső rétege”.<br>

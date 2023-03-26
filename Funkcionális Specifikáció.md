@@ -31,8 +31,14 @@ A rendszer célja nem más, mint hogy az ADMINISZTRÁTOROK álltal létrehozott 
 
 ### 2. Látogató:<br>
 
-- Kérdőívek és az azt megelőző tesztek kitöltése
-- A felhasználó eldöntheti, hogy anonim szeretne maradni vagy a kitöltéshez adja a nevét
+- Kérdőívek és az azt megelőző tesztek kitöltése<br>
+- A felhasználó eldöntheti, hogy anonim szeretne maradni vagy a kitöltéshez adja a nevét<br>
+
+## 7.
+
+## 8. Képernyőterv
+
+## 9. Fogalomszótár
 
 
 

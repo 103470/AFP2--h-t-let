@@ -2,7 +2,7 @@
 
 ## 1. Áttekintés
 
-Csapatunk célja létrehozni egy olyan kérdőívet, amely információt gyűjt az emberektől. A kérdőív elejére implementáltunk egy "kisseb" kérdőívet, melynek célja, hogy képet kapjunk arról, hogy a felhasználó mennyire jártas az adott témában. Ezután a felhasználó megkapja a rendes kérdéseket amelyek fajtája a már megszokott felelet választós, igaz-hamis vagy a kifejtős/válaszadós forma. Az adatok egy adatbázisban kerülnek eltárolásra, amely megtekintéséhez egy felhasználói fiókba történő belépés után van lehetőség. Ennek a célja, hogy a begyűjtött információt ne tudja egy 3. fél megtekinteni és illetéktelenül felhasználni.
+Csapatunk célja létrehozni egy olyan kérdőívet, amely információt gyűjt az emberektől. A kérdőív elejére implementáltunk egy "kisebb" kérdőívet, melynek célja, hogy képet kapjunk arról, hogy a felhasználó mennyire jártas az adott témában. Ezután a felhasználó megkapja a rendes kérdéseket amelyek fajtája a már megszokott felelet választós, igaz-hamis vagy a kifejtős/válaszadós forma. Az adatok egy adatbázisban kerülnek eltárolásra, amely megtekintéséhez egy felhasználói fiókba történő belépés után van lehetőség. Ennek a célja, hogy a begyűjtött információt ne tudja egy 3. fél megtekinteni és illetéktelenül felhasználni.
 
 ## 2. Jelenlegi Helyzet
 

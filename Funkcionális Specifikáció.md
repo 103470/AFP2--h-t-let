@@ -36,7 +36,15 @@ A rendszer célja nem más, mint hogy az ADMINISZTRÁTOROK álltal létrehozott 
 
 ## 7.
 
+
 ## 8. Képernyőterv
+
+
+![Megnevezetlen diagram drawio (4)](https://user-images.githubusercontent.com/113610538/227791538-58983cd0-4ed9-48d8-bbf4-b6440a24962c.png)<br>
+
+
+![Megnevezetlen diagram drawio (5)](https://user-images.githubusercontent.com/113610538/227791557-86f18e72-b3d2-4c6f-a95a-6f954d2fd329.png)<br>
+
 
 ## 9. Fogalomszótár
 

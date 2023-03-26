@@ -40,7 +40,8 @@ A rendszer célja nem más, mint hogy az ADMINISZTRÁTOROK álltal létrehozott 
 ## 8. Képernyőterv
 
 
-![Megnevezetlen diagram drawio (4)](https://user-images.githubusercontent.com/113610538/227791538-58983cd0-4ed9-48d8-bbf4-b6440a24962c.png)<br>
+![Képernyőkép 2023-03-26 185804](https://user-images.githubusercontent.com/113610538/227791701-e88c018f-b15a-45b1-b158-f889c724cbc5.png)
+
 
 
 ![Megnevezetlen diagram drawio (5)](https://user-images.githubusercontent.com/113610538/227791557-86f18e72-b3d2-4c6f-a95a-6f954d2fd329.png)<br>

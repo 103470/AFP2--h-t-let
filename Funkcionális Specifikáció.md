@@ -10,5 +10,29 @@ Jelenleg a megrendelő egy papíralapú kérdőív rendszert alkamaz. Ennek hoss
 
 ## 4. Vágyálomrendszer
 
-Egy olyan rendszer szükséges számunkra amely kérdőív kitöltése kapcsán adatok feldolgozását teszi lehetővé. Funkcionalitást tekintve a rendszer egy kerdőívből álljon, tehát a felhasználó egy barátságos és egyértelmű felületet kell, hogy kapjon. Elsősorban a már fentebb említett "kis" kérdőívet kell kitöltenie amely azt a célt szolgája, hogy a témában jártasabb emberek véleményét megfelelő súlyozással értékeljük ki a jövőben. Ezután kapják meg az "Igazi" kérdőívet ahol a rendszer egyszerű kérdésekre vár választ.
+Egy olyan rendszer szükséges számunkra amely kérdőív kitöltése kapcsán adatok feldolgozását teszi lehetővé. Funkcionalitást tekintve a rendszer egy kerdőívből álljon, tehát a felhasználó egy barátságos és egyértelmű felületet kell, hogy kapjon. Elsősorban a már fentebb említett "kis" kérdőívet kell kitöltenie amely azt a célt szolgája, hogy a témában jártasabb emberek véleményét megfelelő súlyozással értékeljük ki a jövőben. Ezután kapják meg az "Igazi" kérdőívet ahol a rendszer egyszerű kérdésekre vár választ.<br>
+
+## 5.
+
+## 6. Használati esetek
+
+A rendszer célja nem más, mint hogy az ADMINISZTRÁTOROK álltal létrehozott kérdőíveket, az oldal LÁTOGATÓI tudják kitölteni, igy adatokat biztosítva a felméréshez. Az ADMINOK és a LÁTOGATÓK különbözőképpen tudják majd használni a rendszert:
+
+### 1. Adminok:<br> 
+
+- Kérdőívek létrehozása a rendszerben<br>
+- Kérdőívekhez egy teszt csatolása, amely felméri a kitöltő jártasságát az adott témában<br>
+- A kérdőív kérdéseinek szerkeztése, kérdés hozzáadása/törlése<br>
+- A felmérés statisztikáinak elérése<br>
+- A statisztikák megtekintése<br>
+- A statisztikák mentése a használt eszközre<br>
+- A statisztikák mentése és tárolása adatbázisban<br>
+- A már létező kérdőívek törlése<br>
+
+### 2. Látogató:<br>
+
+- Kérdőívek és az azt megelőző tesztek kitöltése
+- A felhasználó eldöntheti, hogy anonim szeretne maradni vagy a kitöltéshez adja a nevét
+
+
 

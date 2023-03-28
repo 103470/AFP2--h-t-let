@@ -19,7 +19,16 @@ A kérdőívek célja, hogy információt gyűjtsön az emberektől az adott té
 
 Egy olyan rendszer szükséges számunkra amely kérdőív kitöltése kapcsán adatok feldolgozását teszi lehetővé. Funkcionalitást tekintve a rendszer egy kerdőívből álljon, tehát a felhasználó egy barátságos és egyértelmű felületet kell, hogy kapjon. Elsősorban a már fentebb említett "kis" kérdőívet kell kitöltenie amely azt a célt szolgája, hogy a témában jártasabb emberek véleményét megfelelő súlyozással értékeljük ki a jövőben. Ezután kapják meg az "Igazi" kérdőívet ahol a rendszer egyszerű kérdésekre vár választ.<br>
 
-## 5.
+## 5. Igényelt üzleti folyamatok modellje
+
+A megrendelő egy olyan kérdőívet szeretne amelynek a fő kérdések megválaszolása előtt felméri egy "mini kérdőív" formájában, hogy a felhasználó mennyire jártás az adott témában. A válaszok egy adatbázisban kerülnek tárolásra. A rendszer rendelkezik egy admin-látogató jogosultság rendszerrel.
+
+## Admin:
+- Bejelentekezés után megtekintheti a megadott válaszokat
+- Szerkesztheti a kérdőívet, hozzáadhat új kérdéseket vagy törölheti a már meglévőket
+- Új felhasználó(kat) (admin) adhat hozzá a rendeszerhez
+- Látogató:
+- A kérdőív kitöltésére van lehetősége
 
 ## 6. Használati esetek
 

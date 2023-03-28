@@ -1,6 +1,11 @@
 # Funkcionális Specifikáció
 
-## 1.
+## 1. Áttekintés
+
+- Csapatunk célja létrehozni egy kérdőívet, amely segítségével szeretnénk információt gyűjteni
+- Az gyűjtött információt egy adatbázisban tároljuk
+- A fő kérdések előtt egy felmérést kell kitöltenie a felhasználónak.
+- A felmérés célja, hogy megmutassa mennyire jártas az adott felhasználó a témában
 
 ## 2. Jelenlegi helyzet
 

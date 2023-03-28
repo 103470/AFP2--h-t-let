@@ -27,7 +27,7 @@ A megrendelő egy olyan kérdőívet szeretne amelynek a fő kérdések megvála
 - Bejelentekezés után megtekintheti a megadott válaszokat
 - Szerkesztheti a kérdőívet, hozzáadhat új kérdéseket vagy törölheti a már meglévőket
 - Új felhasználó(kat) (admin) adhat hozzá a rendeszerhez
-- Látogató:
+### Látogató:
 - A kérdőív kitöltésére van lehetősége
 
 ## 6. Használati esetek

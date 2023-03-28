@@ -70,5 +70,5 @@ válaszok közül való választással lehet válaszolni.
 
 ## 9. Fogalomszótár
 
-
+Skeleton: Egy váz ami alapul szolgál a végső termék elkészítéséhez.
 

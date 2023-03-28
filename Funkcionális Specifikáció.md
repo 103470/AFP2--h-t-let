@@ -23,7 +23,7 @@ Egy olyan rendszer szükséges számunkra amely kérdőív kitöltése kapcsán 
 
 A megrendelő egy olyan kérdőívet szeretne amelynek a fő kérdések megválaszolása előtt felméri egy "mini kérdőív" formájában, hogy a felhasználó mennyire jártás az adott témában. A válaszok egy adatbázisban kerülnek tárolásra. A rendszer rendelkezik egy admin-látogató jogosultság rendszerrel.
 
-## Admin:
+### Admin:
 - Bejelentekezés után megtekintheti a megadott válaszokat
 - Szerkesztheti a kérdőívet, hozzáadhat új kérdéseket vagy törölheti a már meglévőket
 - Új felhasználó(kat) (admin) adhat hozzá a rendeszerhez
@@ -50,8 +50,13 @@ A rendszer célja nem más, mint hogy az ADMINISZTRÁTOROK álltal létrehozott 
 - Kérdőívek és az azt megelőző tesztek kitöltése<br>
 - A felhasználó eldöntheti, hogy anonim szeretne maradni vagy a kitöltéshez adja a nevét<br>
 
-## 7.
+## 7. Funkció-követelmény megfeleltetés
 
+- A felhasználó által megadott válaszokat csak az Admin felhasználók tekinthetik meg.
+- Ezzel elkerüljük az információk illetéktelen felsználását.
+- Többfajta kérdés típus közül választhat a megrendelő ezzel létrehozhat olyan kérdéseket amelyekre az általa megadot
+válaszok közül való választással lehet válaszolni.
+- A megrendelő a maga ítlése szerint állíthatja össze a kérdőívet, amihez egy skeleton-t bizotsítunk.
 
 ## 8. Képernyőterv
 

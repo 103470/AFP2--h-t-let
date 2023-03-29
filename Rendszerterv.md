@@ -9,9 +9,32 @@ A rendszer célja, hogy a információt gyűjtsön az emberektől. A fő kérdé
 ## 3. Követelmények
 
 - Webes megvalósítás.
-- A rendszer fejlesztése HTML/CSS valamint PHP segítségével történik.
-- A weblap felépítése, valamint dizájnolása a HTML/CSS nyelv implementálásával valósítandó meg.
-- A weboldal használatához egy egyszerű böngészőre van szükség.
-- Az adatok adatbázisban való tárolása.
-- Jogosultságrendszer kialakítása
-- Az admin jogosultsággal rendelkezők szerkeszthetik a kérdőívet/ új tagokat adhatnak hozzá a rendszerhez
+- A rendszer fejlesztése HTML/CSS valamint PHP segítségével történik<br>
+- A weblap felépítése, valamint dizájnolása a HTML/CSS nyelv implementálásával valósítandó meg<br>
+- A weboldal használatához egy egyszerű böngészőre van szükség<br>
+- Az adatok adatbázisban való tárolása<br>
+- Jogosultságrendszer kialakítása<br>
+- Az admin jogosultsággal rendelkezők szerkeszthetik a kérdőívet/ új tagokat adhatnak hozzá a rendszerhez<br>
+
+## 4.
+
+## 5. Funkcionális terv
+
+### Rendszerszereplők:<br>
+- Admin<br>
+- Látogató<br>
+
+### Rendszerhasználati esetek és lefutásuk:<br>
+
+Adminisztrátor:<br>
+
+- Teljes hozzáférése van a rendszerhez<br>
+- Adatbázis tartalmát látthatja, válltoztathatja<br>
+- Felhasználói adatok módosítása<br>
+- Kérdések hozzáadása/törlése/válltoztatása<br>
+
+Látogató:<br>
+
+- Ki kell tölteni a válaszokat, nem lehet átugorni<br>
+- A végén beküldi a válaszait<br>
+

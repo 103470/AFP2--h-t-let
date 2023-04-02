@@ -6,11 +6,17 @@ A rendszer célja, hogy a információt gyűjtsön az emberektől. A fő kérdé
 
 ## 2. Projekt terv
 #### A rendszer létrehozásához rendelkezésre álló erőforrások: A felhasználó által használt notebookok/asztali számítógépek melyeknek rendelkezniük kell egy futó opercációs rendszerrel(Windows 7, Windows 10, Linux), folyamatos internet kapcsolatal, illetve egy általuk választott böngészővel(opera,google chrome,firefox) 
+### Projektszerepkörök, felelőségek:
 - Scrum Masters: Riczkó Henrik,Kardos Zsolt
 - Product Owner: Riczkó Henrik,Kardos Zsolt
 - Contributer: Magos Balázs
 - Contributer: Kémeri Martin
 - Contributer: Török Marcell
+
+###  Projektmunkások és felelőségek:
+- Frontend: Magos Balázs,Kémeri Martin,Török Marcell
+- Backend: Magos Balázs,Kémeri Martin,Török Marcell
+- Tesztelés: Magos Balázs,Kémeri Martin,Török Marcell
 
 ## 3. Követelmények
 

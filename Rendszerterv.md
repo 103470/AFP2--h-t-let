@@ -16,7 +16,14 @@ A rendszer célja, hogy a információt gyűjtsön az emberektől. A fő kérdé
 - Jogosultságrendszer kialakítása<br>
 - Az admin jogosultsággal rendelkezők szerkeszthetik a kérdőívet/ új tagokat adhatnak hozzá a rendszerhez<br>
 
-## 4.
+## 4.Funkcionális Követelmények
+
+### A kerdőiv kezelésével kapcsolatban:
+A kérdőívben a kérdesek legyenek világosan és érthetően megfogalmazva.
+Ezen felül a kérdőív legyen könnyen kezelhető valamint egyszerűen megérthető/átlátható.
+### A vizuális felülettel kapcsolatban:
+A vizualis felület legyen kidolgozott, még sem túl komplikált.
+Szeretnénk, hogy a felület is átlátható legyen(látni lehet, hogy mely funkciók hol találhatók, és nem kell kutatni utánuk).
 
 ## 5. Funkcionális terv
 

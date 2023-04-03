@@ -89,7 +89,7 @@ ellenőrzése a rendszer által megvalósított üzleti szolgáltatások verifik
 
 
 
-10. Implementációs terv
+##10. Implementációs terv
 
 A Webes felület főként HTML, CSS, és Javascript nyelven fog készülni.
 

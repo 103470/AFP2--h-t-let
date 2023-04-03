@@ -81,6 +81,14 @@ Az alkalmazás webes felületen fut,az igénybevételéhez szükség van regiszt
 #### Fejlesztő eszközök:
 - Visual Studio Code
 
+
+## 8. Tesztterv
+
+A tesztelések célja a rendszer és komponensei funkcionalitásának teljes vizsgálata,
+ellenőrzése a rendszer által megvalósított üzleti szolgáltatások verifikálása.
+
+
+
 10. Implementációs terv
 
 A Webes felület főként HTML, CSS, és Javascript nyelven fog készülni.

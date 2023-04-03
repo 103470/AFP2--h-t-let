@@ -88,12 +88,24 @@ A tesztelések célja a rendszer és komponensei funkcionalitásának teljes viz
 ellenőrzése a rendszer által megvalósított üzleti szolgáltatások verifikálása.
 
 
+## 9. Telepítési terv
+#### A programott Githubon keresztül lehet telepíteni miután elvégeztük a letöltést (https://crast.net/150687/downloading-files-from-github-is-very-simple-this-is-how-you-can-do-it-from-your-mobile-or-pc/, A letöltéshez segítség) utána ki bontjuk a mappát oda ahová szeretnénk.
 
-##10. Implementációs terv
+## 10. Karbantartási terv
+
+Fontos ellenőrizni:
+-A válaszok elmentődnek az adatbázisba.
+-A regisztációnál csak érvényes emailcímel lehet regisztrálni
+
+Figyelembe kell venni a felhasználó által jött visszajelzést is a programmal kapcsolatban.
+Ha hibát talált, mielőbb orvosolni kell, lehet az:
+*	Működéssel kapcsolatos
+*	Kinézet, dizájnnal kapcsolatos
+
+
+##12. Implementációs terv
 
 A Webes felület főként HTML, CSS, és Javascript nyelven fog készülni.
 
 
-## 12. Telepítési terv
-#### A programott Githubon keresztül lehet telepíteni miután elvégeztük a letöltést (https://crast.net/150687/downloading-files-from-github-is-very-simple-this-is-how-you-can-do-it-from-your-mobile-or-pc/, A letöltéshez segítség) utána ki bontjuk a mappát oda ahová szeretnénk.
 

@@ -75,7 +75,8 @@ Látogató:<br>
 
 Az alkalmazás webes felületen fut,az igénybevételéhez szükség van regisztrációhoz.
 
-
+#### Fejlesztő eszközök:
+- Visual Studio Code
 
 
 

@@ -103,9 +103,9 @@ Ha hibát talált, mielőbb orvosolni kell, lehet az:
 *	Kinézet, dizájnnal kapcsolatos
 
 
-##12. Implementációs terv
+## 12. Implementációs terv
 
-A Webes felület főként HTML, CSS, és Javascript nyelven fog készülni.
+#### A Webes felület főként HTML, CSS, és Javascript nyelven fog készülni.
 
 
 

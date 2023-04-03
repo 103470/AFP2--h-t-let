@@ -50,6 +50,9 @@ Ezen felül a kérdőív legyen könnyen kezelhető valamint egyszerűen megért
 A vizualis felület legyen kidolgozott, még sem túl komplikált.
 Szeretnénk, hogy a felület is átlátható legyen(látni lehet, hogy mely funkciók hol találhatók, és nem kell kutatni utánuk).
 
+## 4.5 Üzleti folyamatok modellje
+A kérdőívek célja, hogy információt gyűjtsön az emberektől az adott témával kapcsolatban. Ma már a esetek többségében a kérdőívek online felületen jelennek meg, de még mindig léteznek papír alapú kérdőívek is. A papír alapú kérdőívekkel történő információ gyűjtés lassú, így az online formában megjelenő kérdőívek, az információ gyors begyűjtésével és olykor egy adatbázisban eltárolva lehetőséget nyújtanak a gyors kiértékelésre amelyet ma már nem szükséges embereknek végezniük, egy számítógépes program is képes lehet már erre.
+
 ## 5. Funkcionális terv
 
 ### Rendszerszereplők:<br>

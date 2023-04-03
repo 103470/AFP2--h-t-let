@@ -78,6 +78,9 @@ Az alkalmazás webes felületen fut,az igénybevételéhez szükség van regiszt
 #### Fejlesztő eszközök:
 - Visual Studio Code
 
+10. Implementációs terv
+
+A Webes felület főként HTML, CSS, és Javascript nyelven fog készülni.
 
 
 ## 12. Telepítési terv

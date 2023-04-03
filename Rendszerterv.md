@@ -70,3 +70,7 @@ Látogató:<br>
 - Ki kell tölteni a válaszokat, nem lehet átugorni<br>
 - A végén beküldi a válaszait<br>
 
+
+## 12. Telepítési terv
+#### A programott Githubon keresztül lehet telepíteni miután elvégeztük a letöltést (https://crast.net/150687/downloading-files-from-github-is-very-simple-this-is-how-you-can-do-it-from-your-mobile-or-pc/, A letöltéshez segítség) utána ki bontjuk a mappát oda ahová szeretnénk.
+

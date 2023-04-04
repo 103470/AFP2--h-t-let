@@ -98,7 +98,6 @@ A szoftver maga weboldalon fog megjelenni, így ebben az esetben az architektúr
 A tesztelések célja a rendszer és komponensei funkcionalitásának teljes vizsgálata,
 ellenőrzése a rendszer által megvalósított üzleti szolgáltatások verifikálása.
 
-
 ## 9. Telepítési terv
 #### A programott Githubon keresztül lehet telepíteni miután elvégeztük a letöltést (https://crast.net/150687/downloading-files-from-github-is-very-simple-this-is-how-you-can-do-it-from-your-mobile-or-pc/, A letöltéshez segítség) utána ki bontjuk a mappát oda ahová szeretnénk.
 
@@ -112,6 +111,10 @@ Figyelembe kell venni a felhasználó által jött visszajelzést is a programma
 Ha hibát talált, mielőbb orvosolni kell, lehet az:
 *	Működéssel kapcsolatos
 *	Kinézet, dizájnnal kapcsolatos
+
+## 11. Adatbázis terv
+
+![204733314-fa1f5ba2-0a56-4ca5-b4e7-4ec3cdd0228c másolata drawio](https://user-images.githubusercontent.com/113610878/229859751-8e38e588-cc60-4c78-a600-3effc227d66c.png)
 
 
 ## 12. Implementációs terv

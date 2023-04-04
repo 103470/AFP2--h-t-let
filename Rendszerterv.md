@@ -85,10 +85,10 @@ Az alkalmazás webes felületen fut,az igénybevételéhez szükség van regiszt
 
 A szoftver maga weboldalon fog megjelenni, így ebben az esetben az architektúráját két külön részre bontjuk szét. Az egyik része a Bakckend a másik pedig a Frontend lesz. A felhasználó kliens ezek közül csak a Frontend részével fog találkozni, míg a Backend része a webszerver adatbázisán fogja a vizsgálatokat végrehajtani.
 
-###A Backend részhez szükséges:
+### A Backend részhez szükséges:
 - Adatbázis szerver, a szoftver ehhez a MySQL adatbázist fogja használni.
 - Kliensekkel kommunikáló szövegek.
-###A Frontend részéhez:
+### A Frontend részéhez:
 - A kérdőív felépítésének ábrázolása HTML és CSS kóddal.
 - Kliens elérése a webszerverhez.
 - PHP funkciók hozzáadása

@@ -6,7 +6,7 @@
     if(isset($_POST['login'])){
         $username = $_POST['username'];
         $password = md5($_POST['password']);
-        $result = $con->query("SELECT * FROM users WHERE username='$username' AND password='$password'");
+        $result = $con->query("SELECT * FROM user WHERE username='$username' AND passwd='$password'");
         if($result->num_rows > 0){
             $row = mysqli_fetch_assoc($result);
             $_SESSION['username'] = $row['username'];

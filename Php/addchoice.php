@@ -1,3 +1,38 @@
+<?php
+
+require 'connect.php'; ?>
+
+<?php
+    if(isset($_POST['addqc'])){
+        $qid = rand(1,100);
+        $result = $con->query("SELECT * FROM question WHERE question_id = $qid");
+        while(mysqli_num_rows($result) > 0){
+            ++$qid;
+        }
+
+        $qname = $_POST['qname'];
+        //$quiz_id = $con->query("SELECT quiz_id from quiz WHERE quiz_name = ".$qname);
+        $question = $_POST['question'];
+        $choice1 = $_POST['option1'];
+        $choice2 = $_POST['option2'];
+        $choice3 = $_POST['option3'];
+        $choice4 = $_POST['option4'];
+
+        $con->query("INSERT INTO question (quiz_id, quiz_name, question_id, question, option1, option2, option3, option4) VALUES ('$quiz_id', '$qname', '$qid', '$question', '$choice1', '$choice2','$choice3','$choice4')");
+    }
+
+    $quizname = $con->query("SELECT * FROM quiz");
+
+
+
+
+    $query = "SELECT * FROM question";
+    $questions = mysqli_query($con,$query);
+
+
+
+
+?>
 <!DOCTYPE html>
 <html>
     <head>

@@ -62,7 +62,6 @@ if(isset($_POST['start'])){
             
     
 
-?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -72,23 +71,30 @@ if(isset($_POST['start'])){
     </head>
     <body>
     <div class="index">
-    <form method="POST" action="process.php" >
-        <h3 class="h2index"><label></label></h3>
-        <input type="hidden" name="question" value=" ">
+    <form method="POST" action="index.php" >
             <br>
             <ul>
-                
-                <input type="radio" name ="answer" value=" ">
-                
+                <?php while($row = mysqli_fetch_array($result)) { ?>
+                    <h3 class="h2index"><label><?php echo $row['question']; ?> </label></h3>
+                    <input type="hidden" name="quizid" value="<?php echo $row['quiz_id']; ?> ">
+                    <input type="hidden" name="quizname" value="<?php echo $row['quiz_name']; ?> ">
+                    <input type="hidden" name="questionid" value="<?php echo $row['question_id']; ?> ">
+                    <input type="hidden" name="question" value="<?php echo $row['question']; ?> ">
+                        <input type="radio" name ="answer" value="<?php echo $row['option1']; ?>" required ><?php echo $row['option1']; ?> <br>
+                        <input type="radio" name ="answer" value="<?php echo $row['option2']; ?>" required ><?php echo $row['option2']; ?> <br>
+                        <input type="radio" name ="answer" value="<?php echo $row['option3']; ?>" required ><?php echo $row['option3']; ?> <br>
+                        <input type="radio" name ="answer" value="<?php echo $row['option4']; ?>" required ><?php echo $row['option4']; ?> <br>
+                <?php } ?>
             <br>
             </ul>
             <br>
-
-            <input type="hidden" name="number" value=" ">
-            <button name="next" value="next">Tovább</button>
+        
+            <input type="hidden" name="number" value="<?php echo $page_no; ?>">
+            <a <?php if($page_no < $total_no_of_pages) {
+                echo "href='?page_no=$next_page'";
+            } ?>><button name="next" value="next">Tovább</button></a>
             <br>
         </form>
     </div>
     </body>
 </html>
-

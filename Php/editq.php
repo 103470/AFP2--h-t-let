@@ -60,3 +60,56 @@
 
 
 ?>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Adatok</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <header>
+        <ul>
+            <li><a href="addchoice.php">Kérdés hozzáadása</a></li>
+            <li><a href="addqtext.php">Predikció hozzáadása</a></li>
+            <li><a href="logout.php">Kijelentkezés</a></li>
+        </ul>
+    </header>
+    <body>
+        <form action="editq.php">
+        <div>
+            <table class="styled-table">
+                <thead>
+                    <th>Quiz neve</th>
+                    <th>Kérdés ID</th>
+                    <th>Kérdés</th>
+                    <th>1. Opció</th>
+                    <th>2. Opció</th>
+                    <th>3. Opció</th>
+                    <th>4. Opció</th>
+                    <th></th>
+
+                </thead>
+                <tbody>
+                <?php while($row = mysqli_fetch_assoc($result)): ?>
+                <tr>
+                    <td><?php echo $row['quiz_name'] ?></td>
+                    <td><?php echo $row['question_id'] ?></td>
+                    <td><?php echo $row['question'] ?></td>
+                    <td><?php echo $row['option1'] ?></td>
+                    <td><?php echo $row['option2'] ?></td>
+                    <td><?php echo $row['option3'] ?></td>
+                    <td><?php echo $row['option4'] ?></td>
+                    <td><a href="edit.php?edit=<?php echo $row['question_id']; ?>"
+                            class="btnup">Szerkesztés</a>
+                        <a href="editq.php?delete=<?php echo $row['question_id']; ?>" 
+                            class="btndel">Törlés</a>
+                        </td>
+
+                </tr>
+                <?php endwhile; ?>
+                </tbody>
+            </table>    
+        </div>
+        </form>
+    </body>
+</html>

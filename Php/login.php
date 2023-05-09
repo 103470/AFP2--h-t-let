@@ -10,32 +10,36 @@
         if($result->num_rows > 0){
             $row = mysqli_fetch_assoc($result);
             $_SESSION['username'] = $row['username'];
-            header("location: database.php");
+            header("location: editquiz.php");
         }
         else{
             echo "<script>alert('Hibás felhasználónév vagy jelszó!')</script>";
         }
     }
 ?>
-
+        
 <!DOCTYPE html>
 <html>
     <head>
     <meta charset="utf-8">
     <title>Bejelentkezés</title>
-    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="index.css" type="text/css">
     </head>
     <body>
-    <header>
-        <ul>
-            <li><a href="main.php">Kezdőlap</a></li>
-            <li><a href="login.php">Bejelentkezés</a></li>
-        </ul>
-    </header>
-        <div class="nagytest">
+    <nav>
+       <div class="container">
+
+       <div class="menu">
+            <a href="main.php">Kezdőlap</a>
+            <a href="login.php">Bejelentkezés</a>
+        </div>
+
+       </div>
+    </nav>
+        <div class="box">
             <h1 class="h1login">Bejelentkezés</h1>
             <form action="login.php" method="POST">
-                <div class="test">
+                <div class="inputBox">
                 <label>Felhasználónév : </label>
                 <br>
                 <input type="text" name="username" placeholder="Írja be a felhasználónevet!" id="log" class="textbox" required>

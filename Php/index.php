@@ -50,33 +50,73 @@ $result3 = $con->query("SELECT * FROM question_text WHERE quiz_id = $quiz");
 <html>
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="index.css">
         <title>Kérdőív</title>
     </head>
     <body>
-    <div class="index">
-    <form method="POST" action="index.php" >
-            <br>
-            <ul>
-                <?php while($row = mysqli_fetch_array($result)) { ?>
-                    <h3 class="h2index"><label><?php echo $row['question']; ?> </label></h3>
-                    <input type="hidden" name="quizid" value="<?php echo $row['quiz_id']; ?> ">
-                    <input type="hidden" name="quizname" value="<?php echo $row['quiz_name']; ?> ">
-                    <input type="hidden" name="questionid" value="<?php echo $row['question_id']; ?> ">
-                    <input type="hidden" name="question" value="<?php echo $row['question']; ?> ">
-                        <input type="radio" name ="answer" value="<?php echo $row['option1']; ?>" required ><?php echo $row['option1']; ?> <br>
-                        <input type="radio" name ="answer" value="<?php echo $row['option2']; ?>" required ><?php echo $row['option2']; ?> <br>
-                        <input type="radio" name ="answer" value="<?php echo $row['option3']; ?>" required ><?php echo $row['option3']; ?> <br>
-                        <input type="radio" name ="answer" value="<?php echo $row['option4']; ?>" required ><?php echo $row['option4']; ?> <br>
+
+    <nav>
+       <div class="container">
+
+       <div class="menu">
+			<a href=""></a>
+			<a href=""></a>
+        </div>
+
+       </div>
+    </nav>
+
+    <div class="box">
+    <form method="POST" action="index.php">
+            
+            
+        <input type="hidden" name="id" value="<?php echo $quiz ?>">
+            <div class="radioBox">
+            <?php while($row = mysqli_fetch_array($result)) { ?>
+                <label><?php echo $row['question']; ?> </label>
+                <i></i>
+                <input type="hidden" name="quizid" value="<?php echo $row['quiz_id']; ?> ">
+                <input type="hidden" name="quizname" value="<?php echo $row['quiz_name']; ?> ">
+                <input type="hidden" name="questionid" value="<?php echo $row['question_id']; ?> ">
+                <input type="hidden" name="question" value="<?php echo $row['question']; ?> ">
+                <br>
+                <?php $qid = $row['question_id'];?>
+                    
+                    <?php 
+                    $result2 = $con->query("SELECT * FROM q_answers WHERE qid = $qid");
+                    while($row2 = mysqli_fetch_array($result2)) { ?>
+                    <div>
+                    <input type="radio" name="answer[<?php echo $row2['qid']; ?>]"  
+                    value="<?php echo $row2['answer']; ?>" require><?php echo $row2['answer']; ?> <br>
+                    </div>
                 <?php } ?>
+                        
+                    
+            <?php         
+            }
+            ?>
+            </div>
+            <div class="inputBox">
+            <?php while($row3 = mysqli_fetch_assoc($result3)) { ?>
+                    <label><?php echo $row3['question']; ?> </label>
+                    <i></i>
+                    <input type="hidden" name="quizid" value="<?php echo $row3['quiz_id']; ?> ">
+                    <input type="hidden" name="quizname" value="<?php echo $row3['quiz_name']; ?> ">
+                    <input type="hidden" name="questionid" value="<?php echo $row3['question_id']; ?> ">
+                    <input type="hidden" name="questiontext" value="<?php echo $row3['question']; ?> ">
+                
+                    <input type="text" name="textanswer">
+                        
+                <?php } 
+
+                ?>
+            <div>
+            </br>
+            
+            
+            </br>
             <br>
-            </ul>
-            <br>
-        
-            <input type="hidden" name="number" value="<?php echo $page_no; ?>">
-            <a <?php if($page_no < $total_no_of_pages) {
-                echo "href='?page_no=$next_page'";
-            } ?>><button name="next" value="next">Tovább</button></a>
+            <a href="final.php" name="save" class="btnup">Kitöltés</a>
             <br>
         </form>
     </div>

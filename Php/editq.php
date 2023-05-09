@@ -1,7 +1,3 @@
-Halfalo
-#7335
-
-SaviuR — 2022.11.29. 23:01
 <!DOCTYPE html>
 <html>
     <head>

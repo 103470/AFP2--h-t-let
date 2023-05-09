@@ -53,14 +53,29 @@ if(isset($_POST['adduser'])){
     <meta charset="utf-8">
     <title>Regisztráció</title>
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-    <link rel="stylesheet" href="reglog.css" type="text/css">
+    <link rel="stylesheet" href="index.css" type="text/css">
     </head>
         <body>
+        <nav>
+       <div class="container">
 
-            <div class="containerreg">
+       <div class="menu">
+            <a href="addquiz.php">Quiz hozzáadása</a>
+            <a href="editquiz.php">Quiz szerkesztése</a>
+            <a href="addchoice.php">Feleletválasztós kérdés hozzáadása</a>
+            <a href="addqtext.php">Kifejtendő kérdés hozzáadása</a>
+            <a href="editq.php">Kérdés szerkesztése</a>
+            <a href="adduser.php">Felhasználó hozzáadása</a>
+            <a href="logout.php">Kijelentkezés</a>
+        </div>
+
+       </div>
+    </nav>
+
+            <div class="box">
                 <h1 class="h1reglog">Regisztráció</h1>
                 <form action="adduser.php" method="POST" enctype="multipart/form-data">
-                    <div class="test">
+                    <div class="inputBox">
                     <label>Felhasználónév : </label>
                     <br>
                     <input type="text" name="username" placeholder="Írja be a felhasználónevet" id="reg" required>

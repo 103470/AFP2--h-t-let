@@ -31,6 +31,7 @@ nav{
     border-bottom: 3px solid var(--primary);
 }
 
+
 .menu{
     display: none;
     flex: 1 1 0%;
@@ -48,21 +49,6 @@ nav{
 }
 
 .start.is-active .start:hover{
-    background-color: var(--primary);
-}
-
-nav a{
-    color: #FFF;
-    margin: 0 16px;
-    font-weight: 600;
-    text-decoration: none;
-    transition: 0.4s;
-    padding: 8px 16px;
-    border-radius: 99px;
-
-}
-
-.menu a.is-active, .menu a:hover{
     background-color: var(--primary);
 }
 
@@ -110,6 +96,7 @@ body{
     top:50%;
 }
 
+
 .styled-table {
     position: absolute;
     left: 50%;
@@ -132,6 +119,7 @@ body{
     text-align: left;
     border-bottom: 3px solid var(--primary);
 }
+
 
 .styled-table th,
 .styled-table td {

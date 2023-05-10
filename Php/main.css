@@ -30,3 +30,19 @@ nav{
     padding: 16px 32px;
     border-bottom: 3px solid var(--primary);
 }
+
+.menu{
+    display: none;
+    flex: 1 1 0%;
+    justify-content: flex-end;
+    margin: 0 -16px;
+}
+
+.start{
+    color: var(--dark);
+    margin: 0 16px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.4s;
+    border-radius: 99px;
+}

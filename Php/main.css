@@ -66,6 +66,23 @@ nav a{
     background-color: var(--primary);
 }
 
+nav a{
+    color: #FFF;
+    margin: 0 16px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.4s;
+    padding: 8px 16px;
+    border-radius: 99px;
+
+}
+
+
+
+.menu a.is-active, .menu a:hover{
+    background-color: var(--primary);
+}
+
 @media(min-width: 768px){
     .menu{
         display: flex;
@@ -91,15 +108,4 @@ body{
     text-align: center;
     align-items: center;
     top:50%;
-}
-
-nav a{
-    color: #FFF;
-    margin: 0 16px;
-    font-weight: 600;
-    text-decoration: none;
-    transition: 0.4s;
-    padding: 8px 16px;
-    border-radius: 99px;
-
 }

@@ -132,3 +132,27 @@ body{
     text-align: left;
     border-bottom: 3px solid var(--primary);
 }
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+    background-color: white;
+}
+
+.styled-table tbody tr:nth-child(even) {
+    background-color: whitesmoke;
+    
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid black;
+}
+
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: black;
+}

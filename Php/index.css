@@ -163,3 +163,21 @@ a{
     border-radius: 50%;
     border: 3px solid #00aeef;
 }
+
+button{
+    width: 50%;
+    height: 45px;
+    border: 1px solid;
+    background: #2691d9;
+    border-radius: 25px;
+    font-size: 18px;
+    color: #e9f4fb;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover{
+    border-color: #2691d9;
+    transition: 0.5s;
+}

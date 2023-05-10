@@ -109,3 +109,26 @@ body{
     align-items: center;
     top:50%;
 }
+
+.styled-table {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    width: 800px;
+    height: 200px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    border-collapse: collapse;
+}
+
+.styled-table thead tr {
+    background-color: var(--dark);
+    color: #ffffff;
+    text-align: left;
+    border-bottom: 3px solid var(--primary);
+}

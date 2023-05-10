@@ -1,1 +1,12 @@
+:root{
+    --primary: #0000FF;
+    --light: #EEEEEE;
+    --dark: #212121;
+}
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira sans' , sans-serif;
+}

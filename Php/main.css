@@ -156,3 +156,32 @@ body{
     font-weight: bold;
     color: black;
 }
+
+.page{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    background: #fff;
+    color: #383838;
+    padding: 150px 750px;
+    border-radius: 6px;
+    background-color: #dddddd;
+}
+
+ul{
+    margin: 20px 30px;
+}
+
+ul li{
+    display: inline-block;
+    margin: 0 10px;
+    background: #ccc;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 45px;
+    cursor: pointer;
+}

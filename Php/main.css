@@ -61,3 +61,45 @@ nav a{
     border-radius: 99px;
 
 }
+
+.menu a.is-active, .menu a:hover{
+    background-color: var(--primary);
+}
+
+@media(min-width: 768px){
+    .menu{
+        display: flex;
+    }
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #dddddd;
+}
+
+.final{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 200;
+    background: white;
+    border-radius: 10px;
+    margin: 30px 0;
+    text-align: center;
+    align-items: center;
+    top:50%;
+}
+
+nav a{
+    color: #FFF;
+    margin: 0 16px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.4s;
+    padding: 8px 16px;
+    border-radius: 99px;
+
+}

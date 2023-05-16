@@ -1,6 +1,7 @@
 ## 1 Én vagyok a tesztjegyzőkönyv :)
 
 ## 2. Tesztet végezte: Kémeri Martin<br>
+A tesztek a Google Chrome nevű böngészőben lettek végrehajtva.
 
 Sikertelen Tesztek:<br>
 

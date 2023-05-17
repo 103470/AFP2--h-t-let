@@ -1,3 +1,10 @@
+<?php 
+
+if(!isset($_SESSION['username'])){
+        header("location: login.php");
+    }
+?>
+
 <!DOCTYPE hmtl>
     <head>
         <title>Quiz hozzáadása</title>

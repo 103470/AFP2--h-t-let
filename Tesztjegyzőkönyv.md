@@ -19,3 +19,12 @@ Sikeres Tesztek: <br>
 
 
 ![abra drawio (2)](https://github.com/103470/AFP2--h-t-let/assets/113610538/cf0ed037-ff71-43af-bd86-8d892032d3b6)<br>
+
+
+## 4. Tesztet végezte: Magos Balázs<br>
+A tesztek Mozzila Firefox böngészőben történtek
+
+Sikertelen Tesztek:<br>
+
+
+![237303144-97f4b572-9d49-4bd5-a41d-11ec1c0ad211](https://github.com/103470/AFP2--h-t-let/assets/113610878/473db7b4-379c-4411-9d92-204d92eb28df)

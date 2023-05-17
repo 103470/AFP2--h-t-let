@@ -27,7 +27,7 @@ A tesztek Mozzila Firefox böngészőben történtek
 Sikertelen Tesztek:<br>
 
 
-![237303144-97f4b572-9d49-4bd5-a41d-11ec1c0ad211](https://github.com/103470/AFP2--h-t-let/assets/113610878/473db7b4-379c-4411-9d92-204d92eb28df)
+![237303144-97f4b572-9d49-4bd5-a41d-11ec1c0ad211 drawio](https://github.com/103470/AFP2--h-t-let/assets/113610878/745c460c-7067-4ea4-99e1-35b13805effb)
 
 
 Sikeres Tesztek:<br>

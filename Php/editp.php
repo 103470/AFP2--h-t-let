@@ -1,6 +1,9 @@
 <?php 
 
 require 'connect.php';
+if(!isset($_SESSION['username'])){
+    header("location: login.php");
+}
 
 ?>
 <?php

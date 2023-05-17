@@ -28,3 +28,9 @@ Sikertelen Tesztek:<br>
 
 
 ![237303144-97f4b572-9d49-4bd5-a41d-11ec1c0ad211](https://github.com/103470/AFP2--h-t-let/assets/113610878/473db7b4-379c-4411-9d92-204d92eb28df)
+
+
+Sikeres Tesztek:<br>
+
+
+![ad drawio](https://github.com/103470/AFP2--h-t-let/assets/113610878/6fe496ba-0e62-43c8-bf5c-d5b419062516)

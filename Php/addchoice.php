@@ -1,6 +1,12 @@
 <?php
 
-require 'connect.php'; ?>
+require 'connect.php'; 
+
+if(!isset($_SESSION['username'])){
+        header("location: login.php");
+    }
+
+?>
 
 <?php
     if(isset($_POST['addqc'])){

@@ -1,4 +1,6 @@
-## 1 Én vagyok a tesztjegyzőkönyv :)
+## 1. Bevezetés<br>
+
+A tesztelés az alkalmazás fejlesztés egyik, hanem a legfontosabb mellékteendője, mivel ezekből a tesztekből derül ki, hogy mik vannak teljesen készen, és miket kell a későbbiekben javítani. Ezeket a teszteket a fejlsztők hajtják végre, általában a saját részükön, hogy pontosan tudják, hogy hol keressék az esetleges hibákat.<br>
 
 ## 2. Tesztet végezte: Kémeri Martin<br>
 A tesztek a Google Chrome nevű böngészőben lettek végrehajtva.

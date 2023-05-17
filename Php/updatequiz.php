@@ -1,6 +1,12 @@
 <?php
 
-require 'quizeditp.php'; ?>
+require 'quizeditp.php';
+
+if(!isset($_SESSION['username'])){
+        header("location: login.php");
+    }
+
+?>
 
 <!DOCTYPE html>
 <head>

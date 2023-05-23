@@ -56,6 +56,6 @@ A tesztek Opera gx böngészőben történtek
 | Teszt #02 | Kijelentkezés után már nem marad bent a felhasználó  | Az admin felhaszálót ki lépteti | Sikeres teszt   | Javitva
 | Teszt #03 | A több lehetőséges kérdéseknél több válaszra is tudunk kattintani |  Elvárt eredményt kapunk| Sikeres teszt   | OK
 | Teszt #04 |Admin felhasználó látja a tesztek eredményeit | Elvárt eredményt kapunk | Sikeres teszt    | OK
-| Teszt #05 | Nem dob több 404-errot ha meg akarjuk nyitni a weboldalt|  Elvárt eredményt kapunk | Sikeres teszt   | OK
+| Teszt #05 | Nem dob több 404-errot ha meg akarjuk nyitni a weboldalt|  Elvárt eredményt kapunk | Sikeres teszt   | Javitva
 
 

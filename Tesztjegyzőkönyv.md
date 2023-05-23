@@ -34,3 +34,16 @@ Sikeres Tesztek:<br>
 
 
 ![ad drawio](https://github.com/103470/AFP2--h-t-let/assets/113610878/6fe496ba-0e62-43c8-bf5c-d5b419062516)
+
+
+## 5. Tesztet végezte:Török Marcell Baláts<br>
+A tesztek Opera gx böngészőben történtek
+
+
+| Tesztszám | Rövid leírás                                             | Várt eredmény                                                                   | Eredmény                                                                       | Megjegyzés                |
+|-----------|----------------------------------------------------------|---------------------------------------------------------------------------------|--------------------------------------------------------------------------------|---------------------------|
+| Teszt #01 | Helytelen válasz esetén Helyesnek érzékeli   | Helyesnek Itéli a válaszunkat  | Sikertelen teszt  | Javitásra szorul
+| Teszt #02 | Kijelentkezés után Bent marad A felhasználó  | Az admin felhaszálót nem lépteti ki | Sikertelen teszt   | Javitásra szorul
+| Teszt #03 | Helytelen erdeményt kapunk kiértékeléskor    |   Nem elvárt eredményt kapunk.| Sikertelen teszt   | Javitásra szorul
+| Teszt #04 | kédések válaszolása közben elcsúszik a design| kédések válaszolása közben elcsúszik a design | Sikertelen teszt    | Javitásra szorul
+| Teszt #05 | 404-errot dob ha meg akarjuk nyitni a weboldalt| A weboldal nem reagál a kérésünkre. | Sikertelen teszt   | Javitásra szorul

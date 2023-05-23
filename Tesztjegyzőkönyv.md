@@ -40,10 +40,22 @@ Sikeres Tesztek:<br>
 A tesztek Opera gx böngészőben történtek
 
 
-| Tesztszám | Rövid leírás                                             | Várt eredmény                                                                   | Eredmény                                                                       | Megjegyzés                |
+| Tesztszám | Rövid leírás                                             | Eredmény                                                                  | Teszt                                                                     | Megjegyzés                |
 |-----------|----------------------------------------------------------|---------------------------------------------------------------------------------|--------------------------------------------------------------------------------|---------------------------|
 | Teszt #01 | Helytelen válasz esetén Helyesnek érzékeli   | Helyesnek Itéli a válaszunkat  | Sikertelen teszt  | Javitásra szorul
 | Teszt #02 | Kijelentkezés után Bent marad A felhasználó  | Az admin felhaszálót nem lépteti ki | Sikertelen teszt   | Javitásra szorul
 | Teszt #03 | Helytelen erdeményt kapunk kiértékeléskor    |   Nem elvárt eredményt kapunk.| Sikertelen teszt   | Javitásra szorul
 | Teszt #04 | kédések válaszolása közben elcsúszik a design| kédések válaszolása közben elcsúszik a design | Sikertelen teszt    | Javitásra szorul
 | Teszt #05 | 404-errot dob ha meg akarjuk nyitni a weboldalt| A weboldal nem reagál a kérésünkre. | Sikertelen teszt   | Javitásra szorul
+
+
+
+| Tesztszám | Rövid leírás                                             |  eredmény                                                                   | Teszt                                                                       | Megjegyzés                |
+|-----------|----------------------------------------------------------|---------------------------------------------------------------------------------|--------------------------------------------------------------------------------|---------------------------|
+| Teszt #01 | Helytelen válasz esetén Helyesnek érzékeli   | Már nem maradt  | Sikeres teszt  | Javitva
+| Teszt #02 | Kijelentkezés után már nem marad bent a felhasználó  | Az admin felhaszálót ki lépteti | Sikeres teszt   | Javitva
+| Teszt #03 | A több lehetőséges kérdéseknél több válaszra is tudunk kattintani |  Elvárt eredményt kapunk| Sikeres teszt   | OK
+| Teszt #04 |Admin felhasználó látja a tesztek eredményeit | Elvárt eredményt kapunk | Sikeres teszt    | OK
+| Teszt #05 | Nem dob több 404-errot ha meg akarjuk nyitni a weboldalt|  Elvárt eredményt kapunk | Sikeres teszt   | OK
+
+
